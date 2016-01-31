@@ -1,0 +1,56 @@
+.wrapper {
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    background: linear-gradient(-25deg,#0C336A 0%,#0A7777 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+#propic {
+    text-align: center;
+    /* display: block; */
+    margin: auto;
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../images/anthony1.jpg) no-repeat;
+    background-size: 165%;
+    background-position: -51px -29px;
+    border: 5px solid #FEFEFE;
+}
+
+#anthony {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+#role {
+    text-align: center;
+    color: #D3D3D3;
+    font-size: 25px;
+    margin-top: auto;
+}
+
+#tagline {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+#projects {
+    text-align: center;
+    margin: auto;
+}
