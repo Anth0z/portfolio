@@ -1,3 +1,52 @@
+.header {
+    display: flex;   
+    position: relative;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    transition: .4s ease-in-out;
+}
+
+#logoDiv {
+    display: inline-block;
+    text-align: center;   
+}
+
+#logo {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    height:;
+    width:200px;
+}
+
+nav {
+    display: block;
+    float:right;
+    margin: 0 15px 0 0;
+}
+
+#menu {
+    display: block;
+    float:;
+    margin:;
+}
+
+.menuNav {
+    list-style: none;
+    display: flex;
+}
+
+.menuNav li {
+    display: block;
+    margin: 0px 15px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
 .wrapper {
     overflow: hidden;
     clear: both;
@@ -48,6 +97,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
+}
+
+.section {
+    width: 780px;
+    padding: 20px 20px 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
 }
 
 #projects {
