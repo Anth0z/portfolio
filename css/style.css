@@ -379,32 +379,46 @@
         text-align: center;
         /* display: block; */
         margin: auto;
-        margin-top: 100px;
-        width: 160px;
-        height: 160px;
+        margin-top: 0px;
+        width: 200px;
+        height: 200px;
         border-radius: 150px;
         -webkit-border-radius: 150px;
         -moz-border-radius: 150px;
         background: url(../images/anthony.jpg) no-repeat;
         background-size: 500%;
-        background-position: -251px;
-        border: 5px solid #FEFEFE;
+        background-position: -315px;
+        /*border: 5px solid #FEFEFE;*/
         transform: rotate(90deg);
+    }
+    
+    #wrappertext {
+        font-family: 'Open sans', 'sans serif';
+    }
+    
+    #hi {
+        text-align: center;
+        color: #fff;
+        font-family: 'Open sans', 'sans serif';
+        font-size: 60px;
+        margin: auto;
+        margin-top: 120px;
     }
     
     #anthony {
         text-align: center;
         color: #fff;
-        font-size: 48px;
-        margin-top: 10px;
-        margin-bottom: auto;
+        font-family: 'Open sans', 'sans serif';
+        font-size: 85px;
+        margin: auto;
     }
 
     #role {
         text-align: center;
         color: #D3D3D3;
-        font-size: 25px;
-        margin-top: auto;
+        font-family: 'Open sans', 'sans serif';
+        font-size: 40px;
+        margin-top: 25px;
     }
     
     hr {
@@ -423,6 +437,7 @@
     #projects {
         margin: auto;
         width: 700px;
+        margin-bottom: 0px;
     }
     
     .title {
@@ -642,7 +657,7 @@
     
     #meDiv {
         width:;
-        height: 350px;
+        height: 50%;
         background-color: #fafafa;
     }
     
