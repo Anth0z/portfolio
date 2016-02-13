@@ -1,10 +1,705 @@
+@media screen and (max-width: 768px) {
+    #navicon {
+        margin-top: 15px;
+        width:1.4em;
+        display: block;
+        background:;
+        font-size:1.35em;
+        text-align: center;
+    }
+    
+    #nav.js {
+        display: none;
+    }
+    
+    ul {
+        width:30%;
+        z-index: 1;
+        position: absolute;
+        background-color: white;
+        right:0px;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 0px;
+        font-size: 14pt;
+    }
+    
+    li {
+        width:100%;
+        border-right:none;
+        float: left;
+    }
+    
+    .wrapper {
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+        position: relative;
+        height: 250px;
+        background: linear-gradient(-25deg,#0C336A 0%,#0A7777 100%);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #propic {
+        text-align: center;
+        /* display: block; */
+        margin: auto;
+        margin-top: 30px;
+        width: 110px;
+        height: 110px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        background: url(../images/anthony.jpg) no-repeat;
+        background-size: 500%;
+        background-position: -172px;
+        border: 5px solid #FEFEFE;
+        transform: rotate(90deg);
+    }
+    
+    #anthony {
+        text-align: center;
+        color: #fff;
+        font-size: 28px;
+        margin-top: 10px;
+        margin-bottom: auto;
+    }
+
+    #role {
+        text-align: center;
+        color: #D3D3D3;
+        font-size: 15px;
+        margin-top: auto;
+    }
+    
+    hr {
+        width: 70%;
+    }
+    
+    #projects {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+
+    .title {
+        color: #fff;
+        font-family: 'Josefin Sans', 'sans serif';
+        font-size: 28pt;
+        /*padding-top: 20px;*/
+        width: ;
+        display: block;
+        margin: auto;
+        margin-top:;
+    }
+
+    .subtitle {
+        color: #FDFDFD;
+        font-family: 'Josefin Sans', 'sans serif';
+        font-weight: light;
+        font-size: 12pt;
+        width: 300px;
+        display: block;
+        margin:auto;
+        margin-bottom: 15px;
+    }
+    
+    #anthoKitchen {
+        padding:;
+        height: 600px;
+        background: url(../images/antho_kitchen_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #kreativeContent {
+        width:;
+        margin: auto;
+        text-align: center;
+        display: block;
+        /*background-color: rgba(0,0,0,0.5);*/
+    }
+    
+    #kreativeImg {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    #kreativeBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 14pt;
+    }
+    
+    a#kreativeBut:link {
+        color: #fff;
+        background-color: #C1C1D2;  
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 300px;
+        height: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14pt;
+    }
+    
+    #anthoCar {
+        padding: 20px;
+        margin:auto;
+        height: 450px;
+        background: url(../images/antho_car_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #uparkContent {
+        width:;
+        text-align: center;
+        display: block;
+    }
+
+    #uparkImg {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #uparkBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 14pt;
+    }
+
+    a#uparkBut:link {
+        color: #fff;
+        background-color: #BDE0F2;
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 300px;
+        height: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14pt;
+    }
+    
+    #anthoDesk {
+        padding: 20px;
+        height: 550px;
+        background: url(../images/antho_desk_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #hiatusContent {
+        width:;
+        text-align: center;
+        display: block;
+    }
+
+    #hiatusImg {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #hiatusBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 14pt;
+    }
+
+    a#hiatusBut:link {
+        color: #fff;
+        background-color: #8BB1C6;
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 200px;
+        height: 50px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+    }
+    
+    #anthoSnow {
+        padding: 20px;
+        height: 550px;
+        background: url(../images/antho_snow_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #snomenContent {
+        width:;
+        text-align: center;
+        display: block;
+    }
+
+    #snomenImg {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #snomenBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 14pt;
+    }
+
+    a#snomenBut:link {
+        color: #fff;
+        background-color: #89E59A;
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 200px;
+        height: 50px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+    }
+    
+    #skillsBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+        color: #565656;
+    }
+    
+    #skills {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+    
+    #codeDiv {
+        margin-right:;
+        width:;
+        display:block;
+    }
+    
+    #designDiv {
+        margin-left:;
+        width:;
+        display:block;
+    }
+    
+    #meDiv {
+        width:;
+        height: 30%;
+        background-color: #fafafa;
+    }
+    
+    #me {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+    
+    #meBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+        color: #565656;
+    }
+    
+    #contact {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+    }
+    
+    #contactForm {
+        color: #808074;
+        text-align: left;
+        width:;
+        margin: auto;
+        font-size: 14pt;
+    }
+    
+    .contactus {
+        font-size: 14pt;
+        width:100%;
+        height: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .commentBox {
+        width: 100%;
+        height: 100px;
+    }
+    
+    input[name="send"] {
+        color: #fff;
+        background-color: #243277;
+        padding: 5px 20px 5px 20px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 80px;
+        height: 40px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 12pt;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #navicon {
+        display: none;
+    }
+    
+    .wrapper {
+        overflow: hidden;
+        clear: both;
+        width: 100%;
+        position: relative;
+        height: 500px;
+        background: linear-gradient(-25deg,#0C336A 0%,#0A7777 100%);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #propic {
+        text-align: center;
+        /* display: block; */
+        margin: auto;
+        margin-top: 100px;
+        width: 160px;
+        height: 160px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        background: url(../images/anthony.jpg) no-repeat;
+        background-size: 500%;
+        background-position: -251px;
+        border: 5px solid #FEFEFE;
+        transform: rotate(90deg);
+    }
+    
+    #anthony {
+        text-align: center;
+        color: #fff;
+        font-size: 48px;
+        margin-top: 10px;
+        margin-bottom: auto;
+    }
+
+    #role {
+        text-align: center;
+        color: #D3D3D3;
+        font-size: 25px;
+        margin-top: auto;
+    }
+    
+    hr {
+        width: 700px;
+    }
+    
+.section {
+    width:;
+    /*padding: 20px 20px 40px;*/
+    overflow: ;
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+    
+    #projects {
+        margin: auto;
+        width: 700px;
+    }
+    
+    .title {
+        color: #fff;
+        font-family: 'Josefin Sans', 'sans serif';
+        font-size: 36pt;
+        /*padding-top: 20px;*/
+        width: 400px;
+        display: block;
+        margin: auto;
+        margin-top:80px;
+    }
+
+    .subtitle {
+        color: #FDFDFD;
+        font-family: 'Josefin Sans', 'sans serif';
+        font-weight: light;
+        font-size: 17pt;
+        width: 300px;
+        display: block;
+        margin:auto;
+        margin-bottom: 15px;
+    }
+    
+    #anthoKitchen {
+        padding:;
+        height: 1100px;
+        background: url(../images/antho_kitchen_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #kreativeContent {
+        width:800px;
+        margin: auto;
+        text-align: center;
+        display: block;
+        /*background-color: rgba(0,0,0,0.5);*/
+    }
+    
+    #kreativeImg {
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    
+    #kreativeBlurb {
+        width: 600px;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 17pt;
+    }
+    
+    a#kreativeBut:link {
+        color: #fff;
+        background-color: #C1C1D2;  
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 300px;
+        height: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20pt;
+    }
+    
+    #anthoCar {
+        padding: 20px;
+        margin:auto;
+        height: 800px;
+        background: url(../images/antho_car_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #uparkContent {
+        width:;
+        text-align: center;
+        display: block;
+    }
+
+    #uparkImg {
+        width: 700px;
+        margin-bottom: 20px;
+    }
+
+    #uparkBlurb {
+        width: 600px;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 17pt;
+    }
+
+    a#uparkBut:link {
+        color: #fff;
+        background-color: #BDE0F2;
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 300px;
+        height: 50px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20pt;
+    }
+    
+    #anthoDesk {
+        padding: 20px;
+        height: 1000px;
+        background: url(../images/antho_desk_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #hiatusContent {
+        width:;
+        text-align: center;
+        display: block;
+    }
+
+    #hiatusImg {
+        width: 700px;
+        margin-bottom: 20px;
+    }
+
+    #hiatusBlurb {
+        width: 600px;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 17pt;
+    }
+
+    a#hiatusBut:link {
+        color: #fff;
+        background-color: #8BB1C6;
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 200px;
+        height: 50px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 20pt;
+    }
+    
+    #anthoSnow {
+        padding: 20px;
+        height: 1000px;
+        background: url(../images/antho_snow_test.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #snomenContent {
+        width:;
+        text-align: center;
+        display: block;
+    }
+
+    #snomenImg {
+        width: 700px;
+        margin-bottom: 20px;
+    }
+
+    #snomenBlurb {
+        width: 600px;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 17pt;
+    }
+
+    a#snomenBut:link {
+        color: #fff;
+        background-color: #89E59A;
+        padding: 5px 30px 5px 30px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 200px;
+        height: 50px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 20pt;
+    }
+    
+    #skillsBlurb {
+        width: 700px;
+        display: block;
+        margin: auto;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+        color: #565656;
+    }
+    
+    #skills {
+        margin: auto;
+        width: 700px;
+    }
+    
+    #codeDiv {
+        margin-right: 20px;
+        width:500px;
+        display: inline-block;
+    }
+    
+    #designDiv {
+        margin-left: 20px;
+        width: 500px;
+        display: inline-block;
+    }
+    
+    #meDiv {
+        width:;
+        height: 350px;
+        background-color: #fafafa;
+    }
+    
+    #me {
+        margin: auto;
+        width: 700px;
+    }
+    
+    #meBlurb {
+        width: 700px;
+        display: block;
+        margin: auto;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+        color: #565656;
+    }
+    
+    #contact {
+        margin: auto;
+        width: 700px;
+    }
+    
+    #contactForm {
+        color: #808074;
+        text-align: left;
+        width: 500px;
+        margin: auto;
+    }
+    
+    .contactus {
+        font-size: 20px;
+        width:500px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    input[name="send"] {
+        color: #fff;
+        background-color: #243277;
+        padding: 5px 20px 5px 20px;
+        border-radius: 25px 25px 25px 25px;
+        border: 3px white solid;
+        width: 100px;
+        height: 50px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 15pt;
+    }
+}
+
+
 .header {
     display: flex;   
     position: relative;
     -webkit-box-pack: justify;
     justify-content: space-between;
     position: relative;
-    z-index: 1;
+    z-index: 100;
     transition: .4s ease-in-out;
 }
 
@@ -27,12 +722,6 @@ nav {
     margin: 0 15px 0 0;
 }
 
-#menu {
-    display: block;
-    float:;
-    margin:;
-}
-
 .menuNav {
     list-style: none;
     display: flex;
@@ -43,49 +732,18 @@ nav {
     margin: 0px 15px;
 }
 
+a.navLinks:link, a.navLinks:active, a.navLinks:visited {
+    color: #565656;
+    text-decoration: none;
+}
+
+a.navLinks:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 .nav li {
     display: inline-block;
-}
-
-.wrapper {
-    overflow: hidden;
-    clear: both;
-    width: 100%;
-    position: relative;
-    height: 500px;
-    background: linear-gradient(-25deg,#0C336A 0%,#0A7777 100%);
-    font-family: 'Raleway', sans-serif;
-}
-
-#propic {
-    text-align: center;
-    /* display: block; */
-    margin: auto;
-    margin-top: 100px;
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background: url(../images/anthony1.jpg) no-repeat;
-    background-size: 165%;
-    background-position: -51px -29px;
-    border: 5px solid #FEFEFE;
-}
-
-#anthony {
-    text-align: center;
-    color: #fff;
-    font-size: 48px;
-    margin-top: 10px;
-    margin-bottom: auto;
-}
-
-#role {
-    text-align: center;
-    color: #D3D3D3;
-    font-size: 25px;
-    margin-top: auto;
 }
 
 #tagline {
@@ -99,15 +757,159 @@ body {
     font-size: 24px;
 }
 
-.section {
-    width: 780px;
-    padding: 20px 20px 40px;
-    overflow: hidden;
-    margin: 0 auto;
-    display: block;
+#projectsJump {
+    color: #565656;   
 }
 
-#projects {
+/*.title {
+    font-family: 'Josefin Sans', 'sans-serif';   
+}
+
+.subtitle {
+    font-family: 'Josefin Sans', 'sans-serif';   
+}
+
+    .title {
+        color: #fff;
+        font-size: 28pt;
+        padding-top: 20px;
+        width: ;
+        display: block;
+        margin: auto;
+        margin-top:;
+    }
+
+    .subtitle {
+        color: #FDFDFD;
+        font-weight: light;
+        font-size: 12pt;
+        width: 300px;
+        display: block;
+        margin:auto;
+        margin-bottom: 15px;
+    }*/
+
+/*#kreativeBlurb {
+    font-family: 'Josefin Sans', 'sans-serif';   
+}*/
+
+    /*#kreativeBlurb {
+        width: 600px;
+        display: block;
+        margin: auto;
+        font-family: 'Josefin Sans', 'sans-serif';
+        font-size: 17pt;
+    }*/
+
+#skillsJump {
+    color: #565656;   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#kreativeBkg {
+    color: #fff;
+}
+
+/*#kreativeContent p {
+    background-color: rgba(0,0,0, 0.5);   
+}*/
+
+a#kreativeBut:hover {
+    background-color: #644EA1;   
+}
+
+#uparkBkg {
+    height: 700px;
+    background-color:;
+    color: #fff;
+}
+
+a#uparkBut:hover {
+    background-color: #2298D3;
+}
+
+#hiatusBkg {
+    height: 700px;
+    background-color:;
+    color: #fff;
+}
+
+a#hiatusBut:hover {
+    background-color: #417597;
+}
+
+#snomenBkg {
+    height: 700px;
+    background-color:;
+    color: #fff;
+}
+
+a#snomenBut:hover {
+    background-color: #4BC065;
+}
+
+.highlight {
+    color: #4f989e;   
+}
+
+.skillsImgs {
+    margin: auto;
+    width: ;
+    text-align: center;
+}
+
+#skillsCode {
+    width: 100%;   
+}
+
+#skillsDesign {
+    width: 100%;   
+}
+
+#meJump {
+    color: #565656;   
+}
+
+#contactJump {
+    color: #565656;   
+}
+
+/*input[name="send"] {
+  width: 150px;
+  height: 30px;
+  background-color: #7AA3CC;
+  color: white;
+  font-weight:bold;
+  font-size: 17px;
+  border: 1px solid #7AA3CC;
+  margin-top: 20px;
+}*/
+
+/*a#snomenBut:hover {
+    background-color: #4BC065;
+}*/
+
+.footer {
+    padding-top: 10px;
+    text-align: center;
+    background: linear-gradient(-25deg,#0C336A 0%,#0A7777 100%);
+    height: 50px;
+    max-width: 100%;
+    color: white;
+    font-size: 10pt;
+}
+
+#socialmedia {
     text-align: center;
     margin: auto;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.smicon {
+    width: 50px;
 }
