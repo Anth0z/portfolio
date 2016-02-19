@@ -46,17 +46,25 @@
         text-align: center;
         /* display: block; */
         margin: auto;
-        margin-top: 30px;
-        width: 110px;
-        height: 110px;
+        /*margin-top: 0px;*/
+        width: 120px;
+        height: 120px;
         border-radius: 150px;
         -webkit-border-radius: 150px;
         -moz-border-radius: 150px;
-        background: url(../images/anthony.jpg) no-repeat;
-        background-size: 500%;
-        background-position: -172px;
-        border: 5px solid #FEFEFE;
-        transform: rotate(90deg);
+        background: url(../images/anthony_circle.jpg) no-repeat;
+        background-size: 100%;
+        /*background-position: 0px;*/
+        /*border: 5px solid #FEFEFE;*/
+    }
+    
+    #hi {
+        text-align: center;
+        color: #fff;
+        font-family: 'Open sans', 'sans serif';
+        font-size: 24px;
+        margin: auto;
+        margin-top: 60px;
     }
     
     #anthony {
@@ -78,6 +86,10 @@
         width: 70%;
     }
     
+    .section {
+        height:;
+    }
+    
     #projects {
         margin: auto;
         text-align: center;
@@ -86,7 +98,7 @@
 
     .title {
         color: #fff;
-        font-family: 'Josefin Sans', 'sans serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans serif';
         font-size: 28pt;
         /*padding-top: 20px;*/
         width: ;
@@ -97,18 +109,28 @@
 
     .subtitle {
         color: #FDFDFD;
-        font-family: 'Josefin Sans', 'sans serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans serif';
         font-weight: light;
         font-size: 12pt;
-        width: 300px;
+        width: ;
         display: block;
         margin:auto;
         margin-bottom: 15px;
     }
     
+    /*#section1 {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        overflow: hidden;
+        position: relative;
+    }*/
+    
     #anthoKitchen {
-        padding:;
-        height: 600px;
+        padding: 20px;
+        /*position: absolute;*/
+        width: 100%;
+        height: 100%;
         background: url(../images/antho_kitchen_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -133,7 +155,7 @@
         width: 90%;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 14pt;
     }
     
@@ -149,10 +171,15 @@
         font-size: 14pt;
     }
     
+    #section2 {
+        height: 60%;
+    }
+    
     #anthoCar {
         padding: 20px;
-        margin:auto;
-        height: 450px;
+        margin:;
+        height: 400px;
+        padding-bottom: 1%;
         background: url(../images/antho_car_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -175,7 +202,7 @@
         width: 90%;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 14pt;
     }
 
@@ -216,7 +243,7 @@
         width: 90%;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 14pt;
     }
 
@@ -234,7 +261,7 @@
     
     #anthoSnow {
         padding: 20px;
-        height: 550px;
+        height: 480px;
         background: url(../images/antho_snow_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -257,7 +284,7 @@
         width: 90%;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 14pt;
     }
 
@@ -310,6 +337,15 @@
         margin: auto;
         text-align: center;
         width: 50%;
+    }
+    
+    .textBlurb {
+        width: 90%;
+        display: block;
+        margin: auto;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14pt;
+        color: #565656;
     }
     
     #meBlurb {
@@ -370,26 +406,9 @@
         clear: both;
         width: 100%;
         position: relative;
-        height: 500px;
+        height: 400px;
         background: linear-gradient(-25deg,#0C336A 0%,#0A7777 100%);
         font-family: 'Raleway', sans-serif;
-    }
-    
-    #propic {
-        text-align: center;
-        /* display: block; */
-        margin: auto;
-        margin-top: 0px;
-        width: 200px;
-        height: 200px;
-        border-radius: 150px;
-        -webkit-border-radius: 150px;
-        -moz-border-radius: 150px;
-        background: url(../images/anthony.jpg) no-repeat;
-        background-size: 500%;
-        background-position: -315px;
-        /*border: 5px solid #FEFEFE;*/
-        transform: rotate(90deg);
     }
     
     #wrappertext {
@@ -400,16 +419,16 @@
         text-align: center;
         color: #fff;
         font-family: 'Open sans', 'sans serif';
-        font-size: 60px;
+        font-size: 50px;
         margin: auto;
-        margin-top: 120px;
+        margin-top: 80px;
     }
     
     #anthony {
         text-align: center;
         color: #fff;
         font-family: 'Open sans', 'sans serif';
-        font-size: 85px;
+        font-size: 65px;
         margin: auto;
     }
 
@@ -417,7 +436,7 @@
         text-align: center;
         color: #D3D3D3;
         font-family: 'Open sans', 'sans serif';
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 25px;
     }
     
@@ -431,7 +450,6 @@
     overflow: ;
     margin: auto;
     display: block;
-    height: 100%;
 }
     
     #projects {
@@ -442,18 +460,18 @@
     
     .title {
         color: #fff;
-        font-family: 'Josefin Sans', 'sans serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans serif';
         font-size: 36pt;
         /*padding-top: 20px;*/
         width: 400px;
         display: block;
         margin: auto;
-        margin-top:80px;
+        /*margin-top:80px;*/
     }
 
     .subtitle {
         color: #FDFDFD;
-        font-family: 'Josefin Sans', 'sans serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans serif';
         font-weight: light;
         font-size: 17pt;
         width: 300px;
@@ -463,8 +481,8 @@
     }
     
     #anthoKitchen {
-        padding:;
-        height: 1100px;
+        padding:20px;
+        height: 700px;
         background: url(../images/antho_kitchen_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -481,7 +499,7 @@
     }
     
     #kreativeImg {
-        width: 800px;
+        width: 480px;
         margin-bottom: 20px;
     }
     
@@ -489,7 +507,7 @@
         width: 600px;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 17pt;
     }
     
@@ -508,7 +526,7 @@
     #anthoCar {
         padding: 20px;
         margin:auto;
-        height: 800px;
+        height:480px;
         background: url(../images/antho_car_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -523,7 +541,7 @@
     }
 
     #uparkImg {
-        width: 700px;
+        width: 480px;
         margin-bottom: 20px;
     }
 
@@ -531,7 +549,7 @@
         width: 600px;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 17pt;
     }
 
@@ -549,7 +567,7 @@
     
     #anthoDesk {
         padding: 20px;
-        height: 1000px;
+        height: 740px;
         background: url(../images/antho_desk_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -564,7 +582,7 @@
     }
 
     #hiatusImg {
-        width: 700px;
+        width: 480px;
         margin-bottom: 20px;
     }
 
@@ -572,7 +590,7 @@
         width: 600px;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 17pt;
     }
 
@@ -590,7 +608,7 @@
     
     #anthoSnow {
         padding: 20px;
-        height: 1000px;
+        height: 620px;
         background: url(../images/antho_snow_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -605,7 +623,7 @@
     }
 
     #snomenImg {
-        width: 700px;
+        width: 480px;
         margin-bottom: 20px;
     }
 
@@ -613,7 +631,7 @@
         width: 600px;
         display: block;
         margin: auto;
-        font-family: 'Josefin Sans', 'sans-serif';
+        font-family: 'Josefin Sans', 'Open Sans', 'sans-serif';
         font-size: 17pt;
     }
 
@@ -661,12 +679,28 @@
         background-color: #fafafa;
     }
     
+    #propic {
+        text-align: center;
+        /* display: block; */
+        margin: auto;
+        /*margin-top: 0px;*/
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        background: url(../images/anthony_circle.jpg) no-repeat;
+        background-size: 100%;
+        /*background-position: 0px;*/
+        /*border: 5px solid #FEFEFE;*/
+    }
+    
     #me {
         margin: auto;
         width: 700px;
     }
     
-    #meBlurb {
+    .textBlurb {
         width: 700px;
         display: block;
         margin: auto;
