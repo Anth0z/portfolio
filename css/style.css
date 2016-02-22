@@ -195,7 +195,7 @@
         color: #fff;
         background-color: #C1C1D2;  
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 300px;
         height: 50px;
@@ -242,7 +242,7 @@
         color: #fff;
         background-color: #BDE0F2;
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 300px;
         height: 50px;
@@ -282,7 +282,7 @@
         color: #fff;
         background-color: #8BB1C6;
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 200px;
         height: 50px;
@@ -322,7 +322,7 @@
         color: #fff;
         background-color: #89E59A;
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 200px;
         height: 50px;
@@ -383,15 +383,6 @@
         color: #565656;
     }
     
-    #meBlurb {
-        width: 90%;
-        display: block;
-        margin: auto;
-        font-family: 'Open Sans', 'sans-serif';
-        font-size: 14pt;
-        color: #565656;
-    }
-    
     #contact {
         margin: auto;
         text-align: center;
@@ -422,7 +413,7 @@
         color: #fff;
         background-color: #243277;
         padding: 5px 20px 5px 20px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 80px;
         height: 40px;
@@ -572,12 +563,12 @@
         color: #fff;
         background-color: #C1C1D2;  
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 300px;
         height: 50px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20pt;
+        font-size: 14pt;
     }
     
     #anthoCar {
@@ -612,12 +603,12 @@
         color: #fff;
         background-color: #BDE0F2;
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 300px;
         height: 50px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 20pt;
+        font-size: 14pt;
     }
     
     #anthoDesk {
@@ -652,12 +643,12 @@
         color: #fff;
         background-color: #8BB1C6;
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 200px;
         height: 50px;
         font-family: 'Open Sans', 'sans-serif';
-        font-size: 20pt;
+        font-size: 14pt;
     }
     
     #anthoSnow {
@@ -692,12 +683,12 @@
         color: #fff;
         background-color: #89E59A;
         padding: 5px 30px 5px 30px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 200px;
         height: 50px;
         font-family: 'Open Sans', 'sans-serif';
-        font-size: 20pt;
+        font-size: 14pt;
     }
     
     #skillsBlurb {
@@ -734,8 +725,7 @@
     }
     
     #meDiv {
-        width:;
-        height: 510px;
+        padding-bottom: 20px;
         background-color: #fafafa;
     }
     
@@ -793,7 +783,7 @@
         color: #fff;
         background-color: #243277;
         padding: 5px 20px 5px 20px;
-        border-radius: 25px 25px 25px 25px;
+        border-radius: 35px 35px 35px 35px;
         border: 3px white solid;
         width: 100px;
         height: 50px;
@@ -858,7 +848,10 @@ body {
 }
 
 #projectsJump {
-    color: #565656;   
+    color: #565656;  
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 /*.title {
@@ -903,6 +896,9 @@ body {
 
 #skillsJump {
     color: #565656;   
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 a {
@@ -963,10 +959,16 @@ a#snomenBut:hover {
 
 #meJump {
     color: #565656;   
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 #contactJump {
     color: #565656;   
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 /*input[name="send"] {
