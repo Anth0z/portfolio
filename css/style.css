@@ -3,9 +3,42 @@
         margin-top: 15px;
         width:1.4em;
         display: block;
-        background:;
+        color: #565656;
         font-size:1.35em;
         text-align: center;
+    }
+    
+    a.navLinks, a.navLinks:link, a.navLinks:active, a.navLinks:visited {
+        color: #D3D3D3;
+        text-decoration: none;
+    }
+
+    a.navLinks:hover {
+        color: white;
+        cursor: pointer;
+    }
+    
+    #toTop {
+        position:fixed;
+        bottom: 0px;
+        right: 0px;
+        width:;
+        z-index:1;
+        display:none;
+    }
+    
+    #upArrow {
+        width: 50px;
+        cursor: pointer;
+    }
+    
+    #navicon:hover {
+        cursor: pointer;
+    }
+    
+    #nav {
+        background: rgba(204, 204, 204, 0);
+        
     }
     
     #nav.js {
@@ -13,11 +46,12 @@
     }
     
     ul {
+        padding-top: 3px;
         width:30%;
         z-index: 1;
         position: absolute;
-        background-color: white;
-        right:0px;
+        right:17px;
+        text-align: right;
         -webkit-margin-before: 1em;
         -webkit-margin-after: 1em;
         -webkit-margin-start: 0px;
@@ -129,8 +163,6 @@
     #anthoKitchen {
         padding: 20px;
         /*position: absolute;*/
-        width: 100%;
-        height: 100%;
         background: url(../images/antho_kitchen_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -172,14 +204,14 @@
     }
     
     #section2 {
-        height: 60%;
+        
     }
     
     #anthoCar {
         padding: 20px;
-        margin:;
+        /*margin:;
         height: 400px;
-        padding-bottom: 1%;
+        padding-bottom: 1%;*/
         background: url(../images/antho_car_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -220,7 +252,6 @@
     
     #anthoDesk {
         padding: 20px;
-        height: 550px;
         background: url(../images/antho_desk_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -261,7 +292,6 @@
     
     #anthoSnow {
         padding: 20px;
-        height: 480px;
         background: url(../images/antho_snow_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -315,26 +345,31 @@
         width: 50%;
     }
     
+    .skillsImgs {
+        margin: auto;
+        margin-bottom: 25px;
+        width: 80%;
+        text-align: center;
+    }
+    
     #codeDiv {
-        margin-right:;
-        width:;
+        margin-top: 20px;
         display:block;
     }
     
     #designDiv {
-        margin-left:;
-        width:;
+        margin-top: 20px;
         display:block;
     }
     
     #meDiv {
-        width:;
-        height: 30%;
+        padding-bottom: 20px;
         background-color: #fafafa;
     }
     
     #me {
         margin: auto;
+        padding-top: 1px;
         text-align: center;
         width: 50%;
     }
@@ -399,6 +434,31 @@
 @media screen and (min-width: 768px) {
     #navicon {
         display: none;
+    }
+    
+    a.navLinks, a.navLinks:link, a.navLinks:active, a.navLinks:visited {
+        color: #565656;
+        text-decoration: none;
+    }
+
+    a.navLinks:hover {
+        color: black;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    #toTop {
+        position:fixed;
+        bottom: 0px;
+        right: 0px;
+        width:;
+        z-index:1;
+        display:none;
+    }
+    
+    #upArrow {
+        width: 95%;
+        cursor: pointer;
     }
     
     .wrapper {
@@ -491,8 +551,6 @@
     }
     
     #kreativeContent {
-        width:800px;
-        margin: auto;
         text-align: center;
         display: block;
         /*background-color: rgba(0,0,0,0.5);*/
@@ -535,7 +593,6 @@
     }
     
     #uparkContent {
-        width:;
         text-align: center;
         display: block;
     }
@@ -608,7 +665,6 @@
     
     #anthoSnow {
         padding: 20px;
-        height: 620px;
         background: url(../images/antho_snow_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -661,21 +717,28 @@
         width: 700px;
     }
     
+    .skillsImgs {
+        margin: auto;
+        margin-bottom: 25px;
+        width: ;
+        text-align: center;
+    }
+    
     #codeDiv {
-        margin-right: 20px;
+        padding: 10px;
         width:500px;
         display: inline-block;
     }
     
     #designDiv {
-        margin-left: 20px;
+        padding: 10px;
         width: 500px;
         display: inline-block;
     }
     
     #meDiv {
         width:;
-        height: 50%;
+        height: 510px;
         background-color: #fafafa;
     }
     
@@ -781,16 +844,6 @@ nav {
     margin: 0px 15px;
 }
 
-a.navLinks:link, a.navLinks:active, a.navLinks:visited {
-    color: #565656;
-    text-decoration: none;
-}
-
-a.navLinks:hover {
-    color: black;
-    text-decoration: underline;
-}
-
 .nav li {
     display: inline-block;
 }
@@ -872,7 +925,6 @@ a#kreativeBut:hover {
 }
 
 #uparkBkg {
-    height: 700px;
     background-color:;
     color: #fff;
 }
@@ -882,7 +934,6 @@ a#uparkBut:hover {
 }
 
 #hiatusBkg {
-    height: 700px;
     background-color:;
     color: #fff;
 }
@@ -892,7 +943,6 @@ a#hiatusBut:hover {
 }
 
 #snomenBkg {
-    height: 700px;
     background-color:;
     color: #fff;
 }
@@ -901,14 +951,8 @@ a#snomenBut:hover {
     background-color: #4BC065;
 }
 
-.highlight {
+.highlight, .highlight>#emailText {
     color: #4f989e;   
-}
-
-.skillsImgs {
-    margin: auto;
-    width: ;
-    text-align: center;
 }
 
 #skillsCode {

@@ -2,26 +2,32 @@
 <html>
     <head>
         <title>Anthony Ornato</title>
+        <meta charset="utf-8">
+
         <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One|Hind|Raleway' rel='stylesheet' type='text/css'>    
     </head>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
     <body>
         <header class='header'>
             <div id='logoDiv'>
-                <img id='logo' src='images/ao_logo_poly_gb.png'/>
+                <a href='index.html'>
+                    <img id='logo' src='images/ao_logo_poly_gb.png'/>
+                </a>
             </div>
             <nav>
                 <div id='menu'>
                     <ul class='menuNav' id='nav'>
-                        <li><a href='#projectsJump' class='navLinks'>projects</a></li>
-                        <li><a href='#skillsJump' class='navLinks'>skills</a></li>
-                        <li><a href='#meJump' class='navLinks'>me</a></li>
-                        <li><a href='#contactJump' class='navLinks'>contact</a></li>
+                        <li><a id='projectsScroll' class='navLinks'>projects</a></li>
+                        <li><a id='skillsScroll' class='navLinks'>skills</a></li>
+                        <li><a id='meScroll' class='navLinks'>me</a></li>
+                        <li><a id='contactScroll' class='navLinks'>contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
+        <a id='toTop'>
+            <img id='upArrow' src='images/uparrow.png'/>
+        </a>
         <div class='wrapper'>
             <div id='wrapperText'>
                 <p id='hi'>Hi, I'm</p>
@@ -30,10 +36,56 @@
                 <!--<p id='tagline'>Perpetual Learner</p>-->
             </div>
         </div>
-        <br><hr/>
-            <p id='projects'<a id='projectsJump'>Projects</a></p>
+            <div id='projects'>
+                <p><a id='projectsJump'>Projects</a></p>
+        </div>
         
         <section class='section' id='section1'>
+            <div id='anthoCar'>
+                <div id='uparkBkg'>
+                    <div id='uparkContent'>
+                        <p class='title'>uPark
+                        </p>
+                        <p class='subtitle'>Mobile Parking Application
+                        </p>
+                        <a href='http://upark.anthonyornato.com' target="_blank">
+                            <img id='uparkImg' src='images/upark_devices.png'/><br/>
+                        </a>
+                        <p id='uparkBlurb'>The focus for uPark was creating a mobile parking 
+                            application, with an intuitive UX, to help users easily find 
+                            parking in downtown Vancouver.
+                        </p>
+                        <br>
+                        <a id='uparkBut' target='_blank' href="http://upark.anthonyornato.com">Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class='section' id='section2'>
+            <div id='anthoSnow'>
+                <div id='snomenBkg'>
+                    <div id='snomenContent'>
+                        <p class='title'>Snomen
+                        </p>
+                        <p class='subtitle'>Local Snow Report Application
+                        </p>
+                        <a href='http://snomen.anthonyornato.com' target="_blank">
+                            <img id='snomenImg' src='images/snomen_devices.png'/><br/>
+                        </a>
+                        <p id='snomenBlurb'>Snomen, a local mountain snow report app for 
+                            Vancouver, was designed to be a visually engaging 
+                            mobile app for users looking to plan their ski & 
+                            snowboard trips.
+                        </p>
+                        <br>
+                        <a id='snomenBut' target='_blank' href="http://snomen.anthonyornato.com/">Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class='section' id='section3'>
             <div id='anthoKitchen'>
                 <div id='kreativeBkg'>
                     <div id='kreativeContent'>
@@ -55,31 +107,8 @@
                 </div>
             </div>
         </section>
-        <br><hr/><br>
-        <section class='section' id='section2'>
-            <div id='anthoCar'>
-                <div id='uparkBkg'>
-                    <div id='uparkContent'>
-                        <p class='title'>uPark
-                        </p>
-                        <p class='subtitle'>Mobile Parking Application
-                        </p>
-                        <a href='http://upark.anthonyornato.com' target="_blank">
-                            <img id='uparkImg' src='images/upark_devices.png'/><br/>
-                        </a>
-                        <p id='uparkBlurb'>The concept was to create a digital marketing
-                            solutions company, called Kreative Kitchen. It was an agency
-                            that would produce and provide marketing
-                            products and campaigns.
-                        </p>
-                        <br>
-                        <a id='uparkBut' target='_blank' href="http://upark.anthonyornato.com">Website</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br><hr/><br>
-        <section class='section' id='section3'>
+        <br>
+        <section class='section' id='section4'>
             <div id='anthoDesk'>
                 <div id='hiatusBkg'>
                     <div id='hiatusContent'>
@@ -90,10 +119,9 @@
                         <a href='http://hiatus.anthonyornato.com' target="_blank">
                             <img id='hiatusImg' src='images/hiatus.jpg'/><br/>
                         </a>
-                        <p id='hiatusBlurb'>The concept was to create a digital marketing
-                            solutions company, called Kreative Kitchen. It was an agency
-                            that would produce and provide marketing
-                            products and campaigns.
+                        <p id='hiatusBlurb'>Hiatus was based on personal experiences about being 
+                            a BCIT student. The website was aimed at making study 
+                            sessions more enjoyable.
                         </p>
                         <br>
                         <a id='hiatusBut' target='_blank' href="http://hiatus.anthonyornato.com/">Website</a>
@@ -101,30 +129,7 @@
                 </div>
             </div>
         </section>
-        <br><hr/><br>
-        <section class='section' id='section4'>
-            <div id='anthoSnow'>
-                <div id='snomenBkg'>
-                    <div id='snomenContent'>
-                        <p class='title'>Snomen
-                        </p>
-                        <p class='subtitle'>Local Snow Report Application
-                        </p>
-                        <a href='http://snomen.anthonyornato.com' target="_blank">
-                            <img id='snomenImg' src='images/snomen_devices.png'/><br/>
-                        </a>
-                        <p id='snomenBlurb'>The concept was to create a digital marketing
-                            solutions company, called Kreative Kitchen. It was an agency
-                            that would produce and provide marketing
-                            products and campaigns.
-                        </p>
-                        <br>
-                        <a id='snomenBut' target='_blank' href="http://snomen.anthonyornato.com/">Website</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <br><hr/>
+        
         <div id='skills'>
             <p><a id='skillsJump'>Skills</a></p>
         </div>
@@ -146,16 +151,16 @@
             <div class='skillsImgs'>
                 <!--<p id='dev'>Development</p>-->
                 <div id='codeDiv'>
-                    <img id='skillsCode' src='images/skills_code.png'/><br/>
+                    <img id='skillsCode' src='images/skills_code_500.png'/><br/>
                 </div>
                 <!--<p id='des'>Design</p>-->
                 <div id='designDiv'>
-                    <img id='skillsDesign' src='images/skills_design.png'/><br/>
+                    <img id='skillsDesign' src='images/skills_design_500.png'/><br/>
                 </div>
             </div>
         </section>
         <div id='meDiv'>
-        <hr/>
+        
             <div id='me'>
                 <p><a id='meJump'>Me</a></p>
             </div>
@@ -178,9 +183,9 @@
                 </div>
             </section>
         </div>
-        <hr/>
+        
         <div id='contact'>
-            <p><a id='contactJump'>Get in touch!</a></p>
+            <p><a id='contactJump'>Contact</a></p>
         </div>
         <section class='section' id='sectionContact'>
             <!--<form id="contactForm" action="thankyou.html">
@@ -205,7 +210,10 @@
                     <br><br>
                     Please feel free to give me a shout, and we can work together to bring
                     <span class='highlight'>amazing</span> ideas to
-                    <span class='highlight'>life</span>! Just click below and off we'll go!
+                    <span class='highlight'>life</span>! Email me at
+                    <span class='highlight'>
+                        <a id='emailText' href='mailto:anthornato@hotmail.com' target='_blank'>anthornato@hotmail.com</a>
+                    </span>or just click below and off we'll go!
                 </p>
             </div>
             <div id='socialmedia'>
@@ -224,17 +232,8 @@
         <footer class="footer">
             <p>&copy; copyright Anthony Ornato 2016
         </footer>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript">
-	$("#nav").addClass("js").before('<div id="navicon">&#9776;</div>');
-	$("#navicon").click(function(){
-		$("#nav").toggle();
-	});
-	$(window).resize(function(){
-		if(window.innerWidth > 768) {
-			$("#nav").removeAttr("style");
-		}
-	});
-</script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+    <script src='./js/scroll.js'></script>
+    <script src='./js/navicon.js'></script>
     </body>
 </html>
