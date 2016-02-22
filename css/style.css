@@ -542,7 +542,6 @@
     
     #anthoKitchen {
         padding:20px;
-        height: 700px;
         background: url(../images/antho_kitchen_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -584,7 +583,6 @@
     #anthoCar {
         padding: 20px;
         margin:auto;
-        height:480px;
         background: url(../images/antho_car_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -624,7 +622,6 @@
     
     #anthoDesk {
         padding: 20px;
-        height: 740px;
         background: url(../images/antho_desk_test.jpg)  no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -761,6 +758,7 @@
     #me {
         margin: auto;
         width: 700px;
+        padding-top: 1px;
     }
     
     .textBlurb {
