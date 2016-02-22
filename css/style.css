@@ -22,7 +22,6 @@
         position:fixed;
         bottom: 0px;
         right: 0px;
-        width:;
         z-index:1;
         display:none;
     }
@@ -420,6 +419,11 @@
         font-family: 'Open Sans', 'sans-serif';
         font-size: 12pt;
     }
+    
+    .smicon {
+        width: 50px;
+        padding: 0px 5px 0px 5px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -790,6 +794,11 @@
         font-family: 'Open Sans', 'sans-serif';
         font-size: 15pt;
     }
+    
+    .smicon {
+        width: 50px;
+        padding: 0px 5px 0px 5px;
+    }
 }
 
 
@@ -1000,9 +1009,5 @@ a#snomenBut:hover {
     text-align: center;
     margin: auto;
     display: block;
-    margin-bottom: -30px;
-}
-
-.smicon {
-    width: 50px;
+    margin-bottom:-30px;
 }
